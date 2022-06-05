@@ -19,21 +19,16 @@ top -b // batch모드로써 순간의 정보를 확인할 수 있음
 
 ***top 실행 후 명령어)***
 
-**shift + p** : CPU 사용률 내림차순
-
-**shit + m** : 메모리 사용률 내림차순
-
-**shift + t** : 프로세스가 돌아가고 있는 시간 순
-
-**k** : kill. k 입력 후 PID 번호 작성. signal은 9
-
-**f** : sort field 선택 화면 -> q 누르면 RES순으로 정렬
-
-**a** : 메모리 사용량에 따라 정렬
-
-**b** : Batch 모드로 작동
-
-**1** : CPU Core별로 사용량 보여줌
+|명령어|설명|
+|-------|-------------------|
+|shift + p| CPU 사용률 내림차순  |
+|shit + m| 메모리 사용률 내림차순|
+|shift + t| 프로세스가 돌아가고 있는 시간 순|
+|k| kill. k 입력 후 PID 번호 작성. signal은 9|
+|f| sort field 선택 화면 -> q 누르면 RES순으로 정렬|
+|a| 메모리 사용량에 따라 정렬|
+|b| Batch 모드로 작동|
+|1| CPU Core별로 사용량 출력|
 
 ### ps 명령어
 
@@ -82,6 +77,9 @@ top은 proc에서 일정 주기로 합산해 cpu 사용율 출력
 
 각 작업에는 번호가 붙어 있어 kill 명령어 뒤에 '%번호' 등으로 사용
 
+![리눅스jobs명령어](https://user-images.githubusercontent.com/40632396/172054597-dd94049d-1026-48dd-8e21-63546bb924dd.jpg)
+
+
 ***jobs 사용법)***
 $ jobs [option][작업번호]
 ```
@@ -112,6 +110,10 @@ PID // ps나 jobs의 명령어를 통해 PID를 얻고 kill 명령어 파라미�
 -s KILL [pid] // 기본 kill 시그널에 응답하지 않으면 강제로 KILL을 사용해 종료할 수 있음
 
 ```
+
+kill -l 옵션 사용 시 아래와 같이 출력 됨
+![kill_-l옵션](https://user-images.githubusercontent.com/40632396/172054660-6d24458a-f022-4216-b2ef-edd82dbbe724.jpg)
+
 
 ***
 
