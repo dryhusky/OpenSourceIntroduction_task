@@ -30,6 +30,7 @@ top -b // batch모드로써 순간의 정보를 확인할 수 있음
 |b| Batch 모드로 작동|
 |1| CPU Core별로 사용량 출력|
 
+
 ### ps 명령어
 
 process status의 줄인말로
