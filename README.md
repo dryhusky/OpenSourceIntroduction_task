@@ -113,6 +113,7 @@ PID // ps나 jobs의 명령어를 통해 PID를 얻고 kill 명령어 파라미�
 ```
 
 kill -l 옵션 사용 시 아래와 같이 출력 됨
+
 ![kill_-l옵션](https://user-images.githubusercontent.com/40632396/172054660-6d24458a-f022-4216-b2ef-edd82dbbe724.jpg)
 
 
